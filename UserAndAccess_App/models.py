@@ -14,7 +14,7 @@ class User(models.Model):
      
 class Product(models.Model):
 	productid = models.CharField(max_length=50)
-	productqty = models.CharField(max_length=10	)
+	productqty = models.CharField(max_length=10)
 	productImage = models.ImageField(upload_to='Images') #added for image start ,default='Images/None/No-image.jpg'
 	productname = models.CharField(max_length=20)
 	productprice = models.CharField(max_length=50)
